@@ -68,9 +68,60 @@
             <hr>
         </section>
 
+        
+
     </main>
 
     <footer>
+
+        <div>
+
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" placeholder="Seu nome" id="nome" name="name">
+
+            <br>
+            <br>
+
+            <div>
+                <label for="email">Seu E-Mail</label>
+                <br>
+                <input type="email" name="Email" placeholder="E-Mail" id="email">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone"  required placeholder="(xx) xxxxx-xxxx">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="texto">Insira um texto</label>
+                <br>
+                <textarea placeholder="Sua mensagem" name="mensagem" id="texto"></textarea>
+            </div>
+
+            <br>
+
+            <fieldset>
+                <legend>Preferências</legend>
+                <input type="checkbox" value="telefone_" name="telefone_"> Telefone
+                <br>
+                <input type="checkbox" value="whatsapp_" name="whatsapp_"> WhatsApp
+                <br>
+                <input type="checkbox" value="mensagem_" name="mensagem_"> Mensagem
+                <br>
+                <input type="checkbox" value="email_" name="email_"> E-mail
+            </fieldset>
+
+            <br>
+            <br>
+
+        </div>
+
         <a href="/image/curriculo_pdf.pdf" download="/image/currilo_pdf.pdf">Download</a>
     </footer>
 
