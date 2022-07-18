@@ -1,0 +1,15 @@
+nav ul li {
+    color: green;
+}
+
+nav ul li ~ li {
+    color: blue;
+}
+
+article h1 {
+    color: green;
+}
+
+article p {
+    color: red;
+}

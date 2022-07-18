@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <h1>Cadastrar Usuário</h1>
+
+    <form target="_blank" action="https://www.w3schools.com/action_page.php" method="post">
+
+
+        <!--End point= é pra onde o formulário vai, ou seja, a url q informar ali no atributo "action"-->
+
+        <div>
+            <label for="nome">Nome de usuário</label>
+            <br>
+            <input type="text" placeholder="Seu nome" id="nome" name="name">
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+
+        <br>
+
+        <div>
+            <label for="email">Seu E-Mail</label>
+            <br>
+            <input type="email" name="Email" placeholder="E-Mail" id="email">
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+
+        <br>
+
+        <div>
+            <label for="pwd">Sua senha</label>
+            <br>
+            <input type="password" name="senha" placeholder="Sua senha" id="pwd">
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+        <div>
+            <label for="data">Informe a data</label>
+            <br>
+            <input type="date" placeholder="Data de Aniversário" id="data" name="data">
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+        <div>
+            <label for="cpf">Informe seu CPF</label>
+            <br>
+            <input type="text" placeholder="CPF" maxlength="14" id="cpf" name="cpf">
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+        <div>
+            <label for="idade">Informe sua idade</label>
+            <br>
+            <input type="number" placeholder="Idade" min="18" max="150" id="idade" name="idade">
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+        <div>
+            <label for="foto">Insira sua foto</label>
+            <br>
+            <input type="file" placeholder="Sua Foto" multiple="" name="foto" id="foto">
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+        <div>
+            <label for="cor">Cor do perfil</label>
+            <br>
+            <input type="Color" placeholder="Selecione sua foto" name="Color" id="cor">
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+
+
+        <fieldset>
+            <legend>Quais os seus pets?</legend>
+            <input type="checkbox" value="Cachorro" name="cachorro"> Cachorro
+            <br>
+            <input type="checkbox" value="Gato" name="gato"> Gato
+            <br>
+            <input type="checkbox" value="Tartaruga" name="tartaruga"> Tartaruga
+            <br>
+            <input type="checkbox" value="Papagaio" name="papagaio"> Papagaio
+        </fieldset>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+        <fieldset>
+            <legend>Você é maior de idade?</legend>
+            <input name="maior" type="radio" value="Sim"> Sim
+            <br>
+            <input name="maior" type="radio" value="Não"> Não
+            <br>
+        </fieldset>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+        <div>
+            <label for="seus bens">Informe seus bens</label>
+            <br>
+            <select id="seus bens" name="bens">
+                <option value="carro">Carro</option>
+                <option value="moto">Moto</option>
+                <option value="bicicleta">Bicicleta</option>
+            </select>
+
+            <br>
+        </div>
+
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+
+        <div>
+            <label for="texto">Insira um texto</label>
+            <br>
+            <textarea placeholder="Sua mensagem" name="mensagem" id="texto"></textarea>
+        </div>
+        <br>
+
+        <hr color="#d3d3d3">
+        <br>
+        <br>
+
+        <input type="submit" value="Salvar Usuário" name="enviar">
+
+    </form>
+
+</body>
+
+</html>

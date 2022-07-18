@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+
+div p em {
+    color: red;
+}
+
+div p ~ p em {
+    color: blue;
+}
+
+div article h1 {
+    color: green;
+}
+
+div article p {
+    color: blue;
+}
