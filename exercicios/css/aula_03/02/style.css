@@ -1,0 +1,7 @@
+body ol li {
+    color: red;
+}
+
+li::marker {
+    color: blue;
+}
